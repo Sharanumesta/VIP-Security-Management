@@ -1,4 +1,4 @@
-import mongoose, { version } from "mongoose";
+import mongoose from "mongoose";
 
 const soldiersSchema = mongoose.Schema({
   name: {
@@ -10,14 +10,9 @@ const soldiersSchema = mongoose.Schema({
     required: true,
   },
   location: {
-    latitude: {
-      type: Number,
-      required: true,
-    },
-    longitude: {
-      type: Number,
-      required: true,
-    },
+    type : mongoose.Schema.Types.ObjectId,
+    ref: "Location",
+    default: null
   },
   status: {
     type: String,

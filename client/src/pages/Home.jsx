@@ -3,11 +3,12 @@ import axios from "axios";
 import MapWithMarker from "../components/MapWithMarker";
 
 const Home = () => {
+  const apiURL = import.meta.env.VITE_BASE_URL;
   const [soldiers, setSoldiers] = useState([]);
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/") // Fetch data from backend
+      .get(`${apiURL}/`) // Fetch data from backend
       .then((res) => setSoldiers(res.data))
       .catch((err) => console.error("Error while fetching data...", err));
   }, []);

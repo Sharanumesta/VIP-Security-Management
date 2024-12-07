@@ -7,10 +7,14 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", async (req, res) => {
-  const result = await Soldier.find({}, { __v: 0 });
-  res.status(200).json(result);
-});
+// app.get("/", async (req, res) => {
+//   const result = await Soldier.find({}, { __v: 0 });
+//   res.status(200).json(result);
+// });
+
+import soldierRouter from './routes/soldiers.router.js';
+
+app.use('/api/v1/vip-security', soldierRouter);
 
 export { app };
 
