@@ -35,6 +35,7 @@ const MapWithMarker = ({ soldiers }) => {
         );
 
         return (
+          
           <Marker key={index} position={[latitude, longitude]}>
             <Popup>
               <strong>{soldier.name}</strong>

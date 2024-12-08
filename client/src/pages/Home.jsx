@@ -20,6 +20,7 @@ const Home = () => {
           <div className="col">Name</div>
           <div className="col">Rank</div>
           <div className="col">Status</div>
+          <div className="col">Location</div>
         </li>
         {soldiers.map((soldier, index) => (
           <li
@@ -29,11 +30,14 @@ const Home = () => {
             <div className="col">{soldier.name}</div>
             <div className="col">{soldier.rank}</div>
             <div className="col">{soldier.status}</div>
+            <div className="col">{soldier.location.name}</div>
           </li>
         ))}
       </ul>
-      <h1>Map with Soldier Locations</h1>
-      <MapWithMarker soldiers={soldiers} />
+      <div className="mt-5">
+        <h1>Map with Soldier Locations</h1>
+        <MapWithMarker soldiers={soldiers} />
+      </div>
     </div>
   );
 };

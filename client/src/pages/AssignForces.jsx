@@ -109,10 +109,10 @@ const AssignForces = () => {
         </button>
       </form>
 
-      <h2 id="map-title" className="mt-5">
+      {/* <h2 id="map-title" className="mt-5">
         Map View
-      </h2>
-      {/* <p>Visualize the locations and assigned forces below.</p>
+      </h2> 
+      <p>Visualize the locations and assigned forces below.</p>
       <MapContainer soldiers={assignedForces} /> */}
     </div>
   );
