@@ -1,0 +1,351 @@
+[
+    {
+      "name": "Aarav Sharma",
+      "rank": "Sepoy",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Ishaan Patel",
+      "rank": "Naik",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Ravi Kumar",
+      "rank": "Havildar",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Manoj Yadav",
+      "rank": "Naib Subedar",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Vikram Singh",
+      "rank": "Subedar",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Sahil Gupta",
+      "rank": "Lance Naik",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Harshvardhan Verma",
+      "rank": "JCO",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Karan Bhatia",
+      "rank": "Lieutenant",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Nikhil Chaudhary",
+      "rank": "Captain",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Abhinav Reddy",
+      "rank": "Major",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Rajesh Deshmukh",
+      "rank": "Colonel",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Sandeep Kumar",
+      "rank": "Lieutenant Colonel",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Anil Thakur",
+      "rank": "Brigadier",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Rajat Mehra",
+      "rank": "Major General",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Vishal Chauhan",
+      "rank": "Lieutenant Colonel",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Prateek Joshi",
+      "rank": "Colonel",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Sumit Sharma",
+      "rank": "Major",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Deepak Tiwari",
+      "rank": "Captain",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Arun Kumar",
+      "rank": "Subedar",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Devender Singh",
+      "rank": "Subedar Major",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Ajay Yadav",
+      "rank": "Naik",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Amit Agarwal",
+      "rank": "Lance Naik",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Gaurav Bansal",
+      "rank": "JCO",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Kunal Gupta",
+      "rank": "Lieutenant",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Sandeep Singh",
+      "rank": "Captain",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Pradeep Kumar",
+      "rank": "Havildar",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Vishal Sharma",
+      "rank": "Major",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Rajeev Prasad",
+      "rank": "Colonel",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Kiran Kumar",
+      "rank": "Lieutenant Colonel",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Manish Verma",
+      "rank": "Brigadier",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Amit Mehta",
+      "rank": "Major General",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Sushil Yadav",
+      "rank": "Captain",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Nitin Bhatia",
+      "rank": "Lieutenant",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Madhur Sharma",
+      "rank": "Naik",
+      "status": "assigned",
+      "location": {}
+    },
+    {
+      "name": "Ashok Kumar",
+      "rank": "Havildar",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Ajay Patel",
+      "rank": "Subedar",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Vikash Raj",
+      "rank": "Lance Naik",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Bikram Singh",
+      "rank": "Major",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Ranjit Singh",
+      "rank": "Captain",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Puneet Sharma",
+      "rank": "Lieutenant Colonel",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Sunil Chawla",
+      "rank": "JCO",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Vishal Kapoor",
+      "rank": "Lieutenant",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Ankur Pandey",
+      "rank": "Brigadier",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Rajiv Desai",
+      "rank": "Colonel",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Arvind Sharma",
+      "rank": "Subedar Major",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Suresh Yadav",
+      "rank": "Major",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Tarun Reddy",
+      "rank": "Naik",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Chandresh Kumar",
+      "rank": "Lance Naik",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Anil Soni",
+      "rank": "Havildar",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Arvind Mehta",
+      "rank": "Naib Subedar",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Rakesh Kumar",
+      "rank": "Major General",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Suman Raj",
+      "rank": "Lieutenant",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Sunil Patel",
+      "rank": "Captain",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Omkar Tiwari",
+      "rank": "Subedar Major",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Sandeep Chaudhary",
+      "rank": "Naik",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Kunal Prasad",
+      "rank": "Brigadier",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Ashwin Gupta",
+      "rank": "Lieutenant Colonel",
+      "status": "active",
+      "location": {}
+    },
+    {
+      "name": "Nashit Deshmukh",
+      "rank": "Colonel",
+      "status": "active",
+      "location": {}
+    }
+  ]
+  
