@@ -3,17 +3,11 @@ import Soldier from "../models/soldiers.model.js";
 
 const assignSoldiers = async (req, res) => {
   try {
-    const { location, numSoldiers } = req.body;
+    const { locationId, numSoldiers } = req.body;
 
     // Validate inputs
-    if (!location || numSoldiers <= 0) {
+    if (!locationId || numSoldiers <= 0) {
       return res.status(400).json({ message: "Invalid input." });
-    }
-
-    // Fetch the location
-    const getLocation = await Location.findOne(location);
-    if (!getLocation) {
-      return res.status(404).json({ message: "Location not found." });
     }
 
     // Find active soldiers
@@ -28,10 +22,10 @@ const assignSoldiers = async (req, res) => {
     }
 
     const soldierIds = assignedSoldiers.map((soldier) => soldier._id);
-    // Use updateMany to assign the location to only the assigned soldiers
+    
     const result = await Soldier.updateMany(
       { _id: { $in: soldierIds } },
-      { $set: { location: getLocation._id, status: "assigned" } }
+      { $set: { location: locationId, status: "assigned" } }
     );
 
     const populate = await Soldier.find({ _id: { $in: soldierIds } }).populate(

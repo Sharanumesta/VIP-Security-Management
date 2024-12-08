@@ -6,7 +6,7 @@ import Select from "react-select";
 const AssignForces = () => {
   const apiUrl = import.meta.env.VITE_BASE_URL;
 
-  const [location, setLocation] = useState(null);
+  const [locationId, setLocationId] = useState(null);
   const [numSoldiers, setNumSoldiers] = useState(0);
 
   const [assignedForces, setAssignedForces] = useState([]);
@@ -19,10 +19,7 @@ const AssignForces = () => {
         const response = await axios.get(`${apiUrl}/locations`);
         const locations = response.data.map((location) => ({
           label: location.name,
-          value: {
-            latitude: location.latitude,
-            longitude: location.longitude,
-          },
+          id: location._id,
         }));
         setLocationOptions(locations);
       } catch (error) {
@@ -44,8 +41,8 @@ const AssignForces = () => {
 
     try {
       const response = await axios.post(`${apiUrl}/assign-soldiers`, {
-        location,
-        numSoldiers,
+        locationId,
+        numSoldiers
       });
 
       // Check if soldiers are returned in the response and is an array
@@ -82,7 +79,7 @@ const AssignForces = () => {
             <label htmlFor="location-select">Location:</label>
             <Select
               options={locationOptions}
-              onChange={(selectedOption) => setLocation(selectedOption.value)}
+              onChange={(selectedOption) => setLocationId(selectedOption.id)}
               placeholder="Select a location"
               aria-label="Select a location"
             />
